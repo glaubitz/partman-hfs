@@ -1,0 +1,5 @@
+partman-hfs (1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1008145)
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Sun, 27 Mar 2022 18:00:51 +0200

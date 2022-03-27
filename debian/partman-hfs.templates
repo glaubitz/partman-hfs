@@ -1,0 +1,61 @@
+Template: partman-hfs/text/hfs
+Type: text
+# :sl1:
+# File system name (untranslatable in many languages)
+_Description: HFS
+
+Template: partman/filesystem_long/hfs
+Type: text
+# :sl2:
+# File system name
+_Description: Hierarchical File System
+
+Template: partman/filesystem_short/hfs
+Type: text
+# :sl1:
+# Short file system name (untranslatable in many languages)
+_Description: HFS
+
+Template: partman-hfs/text/hfsplus
+Type: text
+# :sl1:
+# File system name (untranslatable in many languages)
+_Description: HFS+
+
+Template: partman/filesystem_long/hfsplus
+Type: text
+# :sl2:
+# File system name
+_Description: Hierarchical File System Plus
+
+Template: partman/filesystem_short/hfsplus
+Type: text
+# :sl1:
+# Short file system name (untranslatable in many languages)
+_Description: HFS+
+
+Template: partman-hfs/boot_not_hfs
+Type: boolean
+# :sl2:
+_Description: Go back to the menu and correct this problem?
+ You have not configured an HFS partition that is mounted to /boot/grub.
+ This is needed by your machine in order to be able to boot. Please go
+ back and create an HFS partition that is mounted to /boot/grub.
+ .
+ If you do not go back to the partitioning menu and correct this error,
+ the partition will be used as is. This means that you may not be able
+ to boot from your hard disk.
+
+Template: partman-hfs/bad_alignment
+Type: boolean
+# :sl2:
+_Description: Do you want to return to the partitioning menu?
+ The partition ${PARTITION} assigned to ${MOUNTPOINT} starts at an offset of
+ ${OFFSET} bytes from the minimum alignment for this disk, which may lead to
+ very poor performance.
+ .
+ Since you are formatting this partition, you should correct this problem
+ now by realigning the partition, as it will be difficult to change later.
+ To do this, go back to the main partitioning menu, delete the partition,
+ and recreate it in the same position with the same settings. This will
+ cause the partition to start at a point best suited for this disk.

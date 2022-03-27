@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the partman-hfs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: partman-hfs\n"
+"Report-Msgid-Bugs-To: partman-hfs@packages.debian.org\n"
+"POT-Creation-Date: 2022-03-23 14:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: text
+#. Description
+#. :sl1:
+#. File system name (untranslatable in many languages)
+#. Type: text
+#. Description
+#. :sl1:
+#. Short file system name (untranslatable in many languages)
+#: ../partman-hfs.templates:1001 ../partman-hfs.templates:3001
+msgid "HFS"
+msgstr ""
+
+#. Type: text
+#. Description
+#. :sl2:
+#. File system name
+#: ../partman-hfs.templates:2001
+msgid "Hierarchical File System"
+msgstr ""
+
+#. Type: text
+#. Description
+#. :sl1:
+#. File system name (untranslatable in many languages)
+#. Type: text
+#. Description
+#. :sl1:
+#. Short file system name (untranslatable in many languages)
+#: ../partman-hfs.templates:4001 ../partman-hfs.templates:6001
+msgid "HFS+"
+msgstr ""
+
+#. Type: text
+#. Description
+#. :sl2:
+#. File system name
+#: ../partman-hfs.templates:5001
+msgid "Hierarchical File System Plus"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl2:
+#: ../partman-hfs.templates:7001
+msgid "Go back to the menu and correct this problem?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl2:
+#: ../partman-hfs.templates:7001
+msgid ""
+"You have not configured an HFS partition that is mounted to /boot/grub. This "
+"is needed by your machine in order to be able to boot. Please go back and "
+"create an HFS partition that is mounted to /boot/grub."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl2:
+#: ../partman-hfs.templates:7001
+msgid ""
+"If you do not go back to the partitioning menu and correct this error, the "
+"partition will be used as is. This means that you may not be able to boot "
+"from your hard disk."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl2:
+#: ../partman-hfs.templates:8001
+msgid "Do you want to return to the partitioning menu?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl2:
+#: ../partman-hfs.templates:8001
+msgid ""
+"The partition ${PARTITION} assigned to ${MOUNTPOINT} starts at an offset of "
+"${OFFSET} bytes from the minimum alignment for this disk, which may lead to "
+"very poor performance."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. :sl2:
+#: ../partman-hfs.templates:8001
+msgid ""
+"Since you are formatting this partition, you should correct this problem now "
+"by realigning the partition, as it will be difficult to change later. To do "
+"this, go back to the main partitioning menu, delete the partition, and "
+"recreate it in the same position with the same settings. This will cause the "
+"partition to start at a point best suited for this disk."
+msgstr ""
